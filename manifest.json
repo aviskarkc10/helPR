@@ -10,6 +10,7 @@
     "48": "icons/48.png",
     "128": "icons/128.png"
   },
+  "permissions": ["clipboardWrite"],
   "content_scripts": [
     {
       "matches": ["*://*.github.com/*/*/compare/*"],
