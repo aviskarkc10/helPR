@@ -28,8 +28,6 @@ const handleButtonClick = () => {
       commitMessages += `- ${commitMessage}\n`;
     });
 
-  console.log(commitMessages);
-
   copyCommitsToClipBoard(commitMessages);
 
   copyCommitBtn.innerHTML = 'Copied to clipboard!';
