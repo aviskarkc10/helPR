@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "HelPR",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Allows you to copy your commit messages so you can add description to your PRs.",
   "homepage_url": "https://github.com/aviskarkc10/descri-pr",
   "icons": {
