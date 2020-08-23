@@ -2,7 +2,9 @@
 
 A helper to write better PR descriptions from your commit messages.
 
-**IMPORTANT:** The extension has been submitted to the Chrome and Firefox stores and will be available shortly.
+**Firefox**: https://addons.mozilla.org/en-US/firefox/addon/helpr/
+
+**Chrome**: https://chrome.google.com/webstore/detail/helpr/aajjfnigmdkpiaipcedkkjnnokikoodg/
 
 ## Demo
 
