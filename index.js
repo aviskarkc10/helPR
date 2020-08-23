@@ -1,7 +1,7 @@
 'use strict';
 
 const btnContainer = document.getElementsByClassName(
-  'd-flex flex-justify-end m-2'
+  'd-flex my-2 mx-md-2 flex-md-justify-end'
 )[0];
 
 const copyCommitBtn = document.createElement('button');
