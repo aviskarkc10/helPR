@@ -15,17 +15,22 @@ btnContainer.insertBefore(copyCommitBtn, btnContainer.firstChild);
 
 const handleButtonClick = () => {
   const commitMessageContainers = document.getElementsByClassName(
-    'commit-message'
+    'TimelineItem-body'
   );
 
   let commitMessages = ``;
 
   commitMessageContainers &&
     Object.keys(commitMessageContainers).forEach((key) => {
-      const commitMessage =
-        commitMessageContainers[key].querySelector('code a').title || '';
+      const commitElement = commitMessageContainers[key].querySelector(
+        'div div div div code a'
+      );
 
-      commitMessages += `- ${commitMessage}\n`;
+      if (commitElement) {
+        const commitMessage = commitElement.title || '';
+
+        commitMessages += `- ${commitMessage}\n`;
+      }
     });
 
   copyCommitsToClipBoard(commitMessages);
